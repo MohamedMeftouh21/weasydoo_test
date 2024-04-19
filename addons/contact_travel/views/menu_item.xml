@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  	<data>
+    
+        <!-- Menu principal -->
+        <menuitem id="menu_voyage_root"
+            name="Voyage"/>
+
+        <!-- Menu Voyage -->
+        <menuitem id="menu_voyage"
+            name="Voyage"
+            parent="menu_voyage_root"            
+            action="action_voyage"
+            sequence="60"/>
+
+
+    </data>
+</odoo>

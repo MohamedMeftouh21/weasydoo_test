@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!--Vue formulaire voyage-->
+        <record id="view_form_voyage" model="ir.ui.view">
+            <field name="name">voyage</field>
+            <field name="model">voyage</field>
+            <field name="arch" type="xml">
+                <form>
+                
+                    <sheet>
+                       
+                        <div class="oe_title">
+                            <label for="name"/>
+
+                            <h1>
+                                <field name="name" placeholder="Voyage"/>
+                            </h1>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="date_of_departure"/>
+                            </group>
+
+                            <group>
+                                <field name="destination"/>
+                            </group> 
+
+                            
+                             <group>
+
+                                            <field name="montant"/>
+                            </group> 
+                            <group>
+                                <field name="partner_id"/>
+                            </group>
+                        </group>
+
+
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!--Vue liste voyage-->
+        <record id="view_tree_voyage" model="ir.ui.view">
+            <field name="name">voyage</field>
+            <field name="model">voyage</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name" />
+                    <field name="date_of_departure" />
+                    <field name="destination" />
+                    <field name="montant"/>
+
+                    <field name="partner_id"/>
+                </tree>
+            </field>
+        </record>
+
+        <!--Action voyage-->
+        <record id="action_voyage" model="ir.actions.act_window">
+            <field name="name">voyage</field>
+            <field name="res_model">voyage</field>
+            <field name="view_mode">tree,form</field>
+        </record> 
+    
+
+    </data>
+</odoo>
