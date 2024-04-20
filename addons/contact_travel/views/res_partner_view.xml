@@ -16,11 +16,15 @@
                             <field string="Voyages de l'Utilisateur" name="voyage_count" widget="statinfo"/>
                         </button>
                     </xpath>
-                  
-                </data>
+<!--Affiche le niveau de récompense sur le formulaire hérité, juste après le champ de adresse.-->
 
+                   <xpath expr="//div[@class='o_address_format']" position="after">
+                            <field  name="recompense_levels" readonely="0"/>
+                    </xpath>  
+                </data>
                 
 
+                     
     </field>
 </record>
 
