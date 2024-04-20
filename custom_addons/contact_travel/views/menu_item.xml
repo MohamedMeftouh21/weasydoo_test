@@ -4,14 +4,16 @@
     
         <!-- Menu principal -->
         <menuitem id="menu_voyage_root"
-            name="Voyage"/>
+            name="Contact Travel"
+             sequence="0"
+            />
 
         <!-- Menu Voyage -->
-        <menuitem id="menu_voyage"
-            name="Voyage"
-            parent="menu_voyage_root"            
-            action="action_voyage"
-            sequence="60"/>
+         <menuitem id='menu_voyage'
+              name='Voyage'
+              parent="menu_voyage_root"
+			  action="action_voyage"
+              sequence='0'/>  
 
 
     </data>

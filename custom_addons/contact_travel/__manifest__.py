@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Contact travel",
+    'name': "contact_travel",
     'summary': """ Contact travel """,
 
-    'version'       : "16.0.0",
-    'category'      : "//",
+    'version': '1.0',
+    'category': 'ContactTravel',
 
     "contributors": [
         "Meftouh Mohamed Adda",
@@ -22,6 +22,7 @@
 
     'depends': [
         'base',
+        'contacts'
     ],
     
     'data': [
@@ -38,7 +39,7 @@
 
     'license'       : "LGPL-3",
     'price'         : "0",
-    'currency'      : 'Eur',
+    'currency'      : 'DA',
 
   
 
