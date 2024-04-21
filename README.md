@@ -4,7 +4,7 @@
 Contact Travel est un module Odoo destiné à la gestion des voyages pour les contacts.
 
 ## Installation et configuration 
-Bienvenue dans ce dépôt ! Ici, vous trouverez le code source du test disponible à l'adresse suivante : [Contact Travel](https://github.com/MohamedMeftouh21/contact_travel/tree/main/addons/contact_travel).
+Bienvenue dans ce dépôt ! Ici, vous trouverez le code source du test disponible à l'adresse suivante : [Contact Travel](https://github.com/MohamedMeftouh21/weasydoo_test/tree/main/custom_addons/contact_travel).
 
 
 Dans ce test, j'ai configuré un environnement Docker pour exécuter l'application (module) Odoo version 16. Vous trouverez ici le code source ainsi que les fichiers de configuration nécessaires.
